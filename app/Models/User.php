@@ -46,6 +46,10 @@ class User extends Authenticatable
     public function conversations()
     {
         
-        return $this->hasMany(Conversation::class,'sender_id')->orWhere('receiver_id',$this->id)->whereNotDeleted();
+        return Conversation::where('sender_id', $this->id)
+                        ->orWhere('receiver_id', $this->id)
+                        ->whereNull('deleted_at') // Assuming soft deletes
+                        ->latest('updated_at') // Optional, if you want the latest conversations first
+                        ->get();
     }
 }
