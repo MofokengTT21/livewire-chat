@@ -37,4 +37,3 @@ class Message extends Model
          return $this->read_at != null;
     }
 }
-}

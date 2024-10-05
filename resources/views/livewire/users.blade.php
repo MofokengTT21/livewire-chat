@@ -6,7 +6,7 @@
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 p-2 ">
 
-        @foreach ($users as $key=> $user)
+        @foreach ($users as $user)
             
 
 
@@ -15,7 +15,7 @@
 
             <div class="flex flex-col items-center pb-10">
 
-              <img src="https://randomuser.me/api/portraits/men/{{$key}}.jpg" alt="image" class="w-24 h-24 mb-2 rounded-full shadow-lg">
+              <img src="https://randomuser.me/api/portraits/men/{{$user->id}}.jpg" alt="image" class="w-24 h-24 mb-2 rounded-full shadow-lg">
 
 
                 <h5 class="mb-1 text-xl font-medium text-gray-900 " >
