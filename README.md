@@ -11,8 +11,8 @@ This is a real-time chat application built using the TALL stack (Tailwind CSS, A
 ## Current progress (screenshots) 
  
   <div align="center">
-  <a href="https://mofokengtt21.github.io/react-cms-tailwind-project/"><img src="screenshots\phone.png"  width="140"></a>
-  <a href="https://github.com/MofokengTT21/driver-behavior"><img src="screenshots/laptop.png"  width="510"></a>
+  <img src="screenshots\phone.png"  width="140">
+  <img src="screenshots/laptop.png"  width="510">
   </div>
 
 ### Coming Soon
