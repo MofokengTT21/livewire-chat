@@ -12,7 +12,7 @@ class="flex flex-col transition-all h-full w-full overflow-hidden p-2">
         <div class="justify-between flex items-center pb-2">
 
             <div class="flex items-center gap-2">
-                <h5 class="font-extrabold text-2xl">Chats</h5>
+                <h5 class="font-semibold text-2xl">Chats</h5>
             </div>
 
             <button class="">
@@ -82,7 +82,7 @@ class="flex flex-col transition-all h-full w-full overflow-hidden p-2">
                                 @if ($conversation->isLastMessageReadByUser())
                                           {{-- double tick  --}}
                                 <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="#4E65FF" class="bi bi-check2-all" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="#FF61D2" class="bi bi-check2-all" viewBox="0 0 16 16">
                                         <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
                                         <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
                                       </svg>
